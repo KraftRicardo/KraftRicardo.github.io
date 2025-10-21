@@ -1,3 +1,7 @@
+# Core Ruby libraries required by the gem
+gem "bigdecimal"
+gem "logger"
+
 # frozen_string_literal: true
 
 source "https://rubygems.org"

@@ -35,22 +35,33 @@ for rendering.
 
 ![Alt text](/assets/img/2D-RPG-Engine/windows.png)
 
-### Painting
+### Mapping
 
-- Painting with grid and without
-- Palette
-- Auto tiling
-- Layers, Grid
-  
+The engine offers 10 layers for each of the 10 height levels. It support free camera movement & zoom. Tweaking
+of several opacity values and layer highlighting. It allows to toggle to show the colliders, script elements, the grid
+and highlighters such as position, nametags and gizmos.
+
 <div align="center">
   <video width="700" controls>
-    <source src="/assets/img/2D-RPG-Engine/test-battle.mp4" type="video/mp4">
-    Your browser does not support the video tag.
+    <source src="/assets/img/2D-RPG-Engine/2d-engine-videos-layers-and-toggles.mp4" type="video/mp4">
   </video>
 </div>
 
+### Painting
 
-### Collision
+The engine allows you to paint on on a given tile map, to create the original Pokemon game flare of tile based maps.
+Additionally now, objects can now also be placed off-grid giving more flexibilit to the user and creating more flare.
+Apart from the basics tools of select, move, brush, copy etc. the engine works with a 2 camera view system where one
+points to the map and the other to the space where all the object/tile palletes are saved. The engine also features auto 
+tiling for water and wall tiles.
+
+<div align="center">
+  <video width="700" controls>
+    <source src="/assets/img/2D-RPG-Engine/2d-engine-videos-painting.mp4" type="video/mp4">
+  </video>
+</div>
+
+### Collision & MD Follower Pathing
 
 ### Scripting
 

@@ -1,29 +1,28 @@
 ---
 layout: post
 title: Master Thesis
-subtitle: RSONPath with a touch of DOM
-cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/thumb.png
-share-img: /assets/img/path.jpg
+subtitle: M.Sc. Informatics
+# cover-img: /assets/img/path.jpg
+thumbnail-img: /assets/img/Master-Thesis/database.png
+share-img: /assets/img/Master-Thesis/database.png
 tags: [Master Thesis, Research, Rust]
 # author: Ricardo Kraft
 ---
 
-[rsonpath-lut][rsonpath-lut-link] is a fork of the original [rsonpath][rsonpath-link] project, developed as part of my master's thesis. This version includes a new lookup table (LUT) implementation, along with all associated benchmarks and additional measurements.
 
-## Master Thesis: _RSONPath with a Touch of DOM_
+In my master thesis, I conducted research to optimize the already fast query engine [**rsonpath**][rsonpath-link] for JSON files. By introducing elements of **DOM (Document Object Model)** to it, I achieved faster query performance — at the cost of only a small amount of memory and preprocessing time (paid once at startup) for a newly designed data structure I call the **lookup table (LUT)**.
+
+## RSONPath with a Touch of DOM
 
 > **Download the current version of the thesis:**  
 > [📄 View on Google Drive][thesis-link]
-
-## Author & Supervision
 
 **Author:** Ricardo Kraft  
 **Supervisor:** [Prof. Dr. Jana Giceva][jana-link]  
 **Advisor:** [M. Sc. Mateusz Gienieczko][mateusz-link]  
 **Institution:** Technical University of Munich, Chair for Database Systems
 
-## Abstract
+## 📘 Abstract
 
 Efficiently querying large JSON files is a significant challenge due to the trade-offs between preprocessing time,
 memory usage, and query speed. In this thesis, we extend the streaming JSON query engine [rsonpath][rsonpath-link] with
@@ -36,14 +35,28 @@ some additional overhead. We conclude that [rsonpath-lut][rsonpath-lut-link] off
 choosing between [rsonpath][rsonpath-link] modes based on query and data characteristics. We believe that this modification
 could be incorporated as a feature into the [rsonpath][rsonpath-link] project, dedicated to improving the discussed query pattern.
 
-## Associated Projects
+## 📊 Example
 
-| Repository                                                 | Description                                                                         |
-| ---------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| [**rsonpath**][rsonpath-link]                              | Original streaming JSON query engine by Mateusz Gienieczko.                         |
-| [**rsonpath-lut**][rsonpath-lut-link]                      | My extended version of _rsonpath_ implementing the Lookup Table (LUT) optimization. |
-| [**rsonpath-original-measure**][rsonpath-original-measure] | An unmodified version of _rsonpath_ that we used as comparison.                     |
-| [**rsonpath-plotting**][rsonpath-plotting-link]            | Python-based visualization and analysis scripts for thesis experiments.             |
+![Editor and Game Windows](/assets/img/Master-Thesis/bestbuy_large_record_(1GB)_query_20.png)
+
+The image above compares query speeds (repeated 0–100 times) across four algorithms, for a 1 GB JSON file and the query: _$.products[2].shipping[*]_
+
+- [serde][serde-link] (blue): Starts at 12.5 s since the DOM must be built once for the first query - consuming about 2–8× more space than the original JSON. Subsequent queries are fast due to the pre-built structure.
+- [rsonpath][rsonpath-link] (red): No building step or extra space, making it lightweight but slower for repeated queries.
+- [rsonpath-lut][rsonpath-lut-link] (orange & green): Adds minimal preprocessing (a few MB and milliseconds) to significantly accelerate repeated queries, staying competitive with SERDE until around 245 repetitions.
+
+## 🧩 Repositories
+Aside from many sources, there are four repositories associated with this thesis. Three mainly edited or created directly by me and the original [rsonpath][rsonpath-link] project.
+The core repository, [rsonpath-lut][rsonpath-lut-link] implements the LUT and other optimizations along with all related benchmarks and analysis scripts.
+
+
+| Repository                                                 | Description                                                             |
+| ---------------------------------------------------------- | ----------------------------------------------------------------------- |
+| [**rsonpath-lut**][rsonpath-lut-link]                      | My extended version of _rsonpath_ implementing the LUT optimization.    |
+| [**rsonpath-original-measure**][rsonpath-original-measure] | An unmodified version of _rsonpath_ that we used as comparison.         |
+| [**rsonpath-plotting**][rsonpath-plotting-link]            | Python-based visualization and analysis scripts for thesis experiments. |
+| [**rsonpath**][rsonpath-link]                              | Original streaming JSON query engine.                                   |
+
 
 
 [thesis-link]: https://drive.google.com/file/d/1OjDbdqzmnt_9qSnpg0yb2BanD_IoT-YO/view?usp=sharing

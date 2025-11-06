@@ -21,6 +21,7 @@ author: Ricardo Kraft
 
 navbar-links:
   About Me: "aboutme"
+  # Contact: "contact"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"

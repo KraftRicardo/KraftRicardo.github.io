@@ -3,8 +3,8 @@ layout: post
 title: Master Thesis
 subtitle: M.Sc. Informatics
 # cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/Master-Thesis/database.png
-share-img: /assets/img/Master-Thesis/database.png
+thumbnail-img: /assets/img/Master-Thesis/database-icon.png
+share-img: /assets/img/Master-Thesis/database-icon.png
 tags: [Master Thesis, Research, Rust]
 # author: Ricardo Kraft
 ---

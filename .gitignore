@@ -13,4 +13,5 @@ Gemfile.lock
 beautiful-jekyll-theme-*.gem
 
 /.idea
+/templates/*
 Notes.md

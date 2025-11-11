@@ -13,11 +13,14 @@ During my two years at [MVZ Martinsried](https://www.medicover-diagnostics.de/ge
 
 ## Example
 
-> **I cannot share the source code directly, but I’ve included a censored example**  
+<!-- > **I cannot share the source code directly, but I’ve included a censored example**  
 > [📄 View on Google Drive](https://drive.google.com/file/d/1s_S31I-7FQmY48bJXQZ8CVvC3YVnmSVS/view?usp=sharing)
 
-![Editor and Game Windows](/assets/img/Form-Library/example.png)
+![Editor and Game Windows](/assets/img/Form-Library/example.png) -->
 
+> **I cannot share the source code directly, but I’ve included a censored example**  
+> [📄 View on Google Drive](https://drive.google.com/file/d/1s_S31I-7FQmY48bJXQZ8CVvC3YVnmSVS/view?usp=sharing)
+<object data="../assets/img/Form-Library/example.pdf" width="725" height="400" type='application/pdf'></object>
 
 ## How the Library Works
 
@@ -31,7 +34,7 @@ The workflow was designed to be **minimal and intuitive**:
 
 - **1 line** to open the `template.tex`.  
 - **1 line** to render it as a `.pdf`.  
-- **1 line** to insert text, images, or tables.  
+- **1 line** to insert an object e.g. text, images or tables.  
 
 The library also supported logic for replacing placeholders in the LaTeX template with real data, making it easy to
 fill the form via code.

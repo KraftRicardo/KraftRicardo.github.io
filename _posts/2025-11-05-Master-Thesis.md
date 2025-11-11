@@ -3,8 +3,8 @@ layout: post
 title: Master Thesis
 subtitle: M.Sc. Informatics at TUM
 # cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/Master-Thesis/database-icon.png
-share-img: /assets/img/Master-Thesis/database-icon.png
+thumbnail-img: /assets/img/Master-Thesis/database.png
+share-img: /assets/img/Master-Thesis/database.png
 tags: [Master Thesis, Research, Rust]
 # author: Ricardo Kraft
 ---
@@ -19,8 +19,9 @@ In my master thesis written in Rust, I conducted research to optimize the alread
 
 **Author:** Ricardo Kraft  
 **Supervisor:** [Prof. Dr. Jana Giceva][jana-link]  
-**Advisor:** [M. Sc. Mateusz Gienieczko][mateusz-link]  
-**Institution:** Technical University of Munich, Chair for Database Systems
+**Advisor:** [M. Sc. Mateusz Gienieczko][mateusz-link]
+**Institution:** [Technical University of Munich](https://www.tum.de/en/)
+**Chair:** [Chair for Database Systems](https://db.in.tum.de/?lang=en)
 
 ## 📘 Abstract
 

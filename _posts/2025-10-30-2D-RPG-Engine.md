@@ -6,7 +6,7 @@ cover-img: /assets/img/2D-RPG-Engine/background-meadow.png
 # cover-img: /assets/img/2D-RPG-Engine/test.png
 thumbnail-img: /assets/img/2D-RPG-Engine/2d-engine-icon.png
 share-img: /assets/img/2D-RPG-Engine/2d-engine-icon.png
-tags: [Project, Java]
+tags: [Project, Java, Games]
 # author: Ricardo Kraft
 ---
 

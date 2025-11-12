@@ -27,7 +27,7 @@ The engine runs two parallel threads, each managing one of the two main windows 
 The mapping system supports **10 layers for each of 10 height levels**, allowing fine-grained control over world design. It provides **free camera movement**, **zoom**, and flexible **layer opacity** controls for better visualization. In addition, you can toggle overlays to display **colliders**, **scripts**, **grids**, and other visual indicators such as **names**, **positions**, and **gizmos**.
 
 <div align="center">
-  <video width="700" controls>
+  <video width="100%" controls>
     <source src="/assets/img/2D-RPG-Engine/2d-engine-videos-layers-and-toggles.mp4" type="video/mp4">
   </video>
 </div>
@@ -37,7 +37,7 @@ The mapping system supports **10 layers for each of 10 height levels**, allowing
 The painting tool enables classic **tile-based map editing**, inspired by the design of the original Pokémon games. You can paint directly on the tile map and also place objects **off-grid** for a more natural look. It supports the essential **editing tools** such as select, move, brush, and copy, all integrated into a **dual-camera system**, where one is focused on the game map and the other on the tile and object palettes area. The engine also supports **auto-tiling** for elements like water and walls.  
 
 <div align="center">
-  <video width="700" controls>
+  <video width="100%" controls>
     <source src="/assets/img/2D-RPG-Engine/2d-engine-videos-painting.mp4" type="video/mp4">
   </video>
 </div>
@@ -47,7 +47,7 @@ The painting tool enables classic **tile-based map editing**, inspired by the de
 The engine allows to attach or remove **colliders** from map objects. By using shared attributes among copied objects the engine applys collider changes to similar objects automatically. This property can but must not necessarily apply to similar attributes such as scale, opacity, trigger colliders and scripts.
 
 <div align="center">
-  <video width="700" controls>
+  <video width="100%" controls>
     <source src="/assets/img/2D-RPG-Engine/2d-engine-videos-collider.mp4" type="video/mp4">
   </video>
 </div>
@@ -57,7 +57,7 @@ The engine allows to attach or remove **colliders** from map objects. By using s
 Each map object can have **scripts** attached to define its behavior. For example, the video below demonstrates **triggered animations** and **dialogues** that occur during interactions or on-collision events.
 
 <div align="center">
-  <video width="700" controls>
+  <video width="100%" controls>
     <source src="/assets/img/2D-RPG-Engine/2d-engine-videos-scipted-objects.mp4" type="video/mp4">
   </video>
 </div>
@@ -65,7 +65,7 @@ Each map object can have **scripts** attached to define its behavior. For exampl
 The scripting system provides **real-time access** to object data and supports **on-the-fly changes** to dialogue and logic. Developers can easily adjust **NPC paths** using moveable nodes, and even change the **animator** (sprite animation set) dynamically during gameplay.
 
 <div align="center">
-  <video width="700" controls>
+  <video width="100%" controls>
     <source src="/assets/img/2D-RPG-Engine/2d-engine-videos-npc-script.mp4" type="video/mp4">
   </video>
 </div>
@@ -75,7 +75,7 @@ The scripting system provides **real-time access** to object data and supports *
 The engine supports **custom in-game user interfaces**, which are implemented directly in code. It also provides a collection of **built-in components** such as boxes, labels, and other UI elements, as shown below. Most of the menus displayed are still **prototypes** and will receive additional polish and content.
 
 <div align="center">
-  <video width="700" controls>
+  <video width="100%" controls>
     <source src="/assets/img/2D-RPG-Engine/2d-engine-videos-ingame-ui.mp4" type="video/mp4">
   </video>
 </div>

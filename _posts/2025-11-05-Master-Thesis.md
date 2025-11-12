@@ -12,15 +12,15 @@ tags: [Master Thesis, Research, Rust]
 
 In my master thesis written in Rust, I conducted research to optimize the already fast query engine [**rsonpath**][rsonpath-link] for JSON files. By introducing elements of **DOM (Document Object Model)** to it, I achieved faster query performance - at the cost of only a small amount of memory and preprocessing time (paid once at startup) for a newly designed data structure I call the **lookup table (LUT)**.
 
-## RSONPath with a Touch of DOM
+## 💻 RSONPath with a Touch of DOM
 
 > **Download the current version of the thesis:**  
 > [📄 View on Google Drive][thesis-link]
 
 **Author:** Ricardo Kraft  
 **Supervisor:** [Prof. Dr. Jana Giceva][jana-link]  
-**Advisor:** [M. Sc. Mateusz Gienieczko][mateusz-link]
-**Institution:** [Technical University of Munich](https://www.tum.de/en/)
+**Advisor:** [M. Sc. Mateusz Gienieczko][mateusz-link]  
+**Institution:** [Technical University of Munich](https://www.tum.de/en/)  
 **Chair:** [Chair for Database Systems](https://db.in.tum.de/?lang=en)
 
 ## 📘 Abstract

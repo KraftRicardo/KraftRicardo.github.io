@@ -13,14 +13,12 @@ During my two years at [MVZ Martinsried](https://www.medicover-diagnostics.de/ge
 
 ## Example
 
-<!-- > **I cannot share the source code directly, but I’ve included a censored example**  
-> [📄 View on Google Drive](https://drive.google.com/file/d/1s_S31I-7FQmY48bJXQZ8CVvC3YVnmSVS/view?usp=sharing)
-
-![Editor and Game Windows](/assets/img/Form-Library/example.png) -->
-
 > **I cannot share the source code directly, but I’ve included a censored example**  
 > [📄 View on Google Drive](https://drive.google.com/file/d/1s_S31I-7FQmY48bJXQZ8CVvC3YVnmSVS/view?usp=sharing)
-<object data="../assets/img/Form-Library/example.pdf" width="725" height="400" type='application/pdf'></object>
+
+This example demonstrates how the library **provides examples** for images, tables, hyperlinks, code blocks, barcodes, text boxes, and more. 
+It also **defines standards** for fonts, colors, headers, footers, positioning, and other layout elements. 
+Using this comprehensive example, many reports were designed and generated automatically through code.
 
 ## How the Library Works
 

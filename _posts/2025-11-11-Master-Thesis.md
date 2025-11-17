@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Master Thesis
-subtitle: M.Sc. Informatics at TUM
-# cover-img: /assets/img/path.jpg
+title: RSONPath with a Touch of DOM
+subtitle: Master Thesis | M.Sc. Informatics at TUM
 thumbnail-img: /assets/img/Master-Thesis/database.png
 share-img: /assets/img/Master-Thesis/database.png
 tags: [Master Thesis, Research, Rust]
@@ -11,9 +10,9 @@ tags: [Master Thesis, Research, Rust]
 
 In my master thesis written in Rust, I conducted research to optimize the already fast query engine [**rsonpath**][rsonpath-link] for JSON files. By introducing elements of **DOM (Document Object Model)** to it, I achieved faster query performance - at the cost of only a small amount of memory and preprocessing time (paid once at startup) for a newly designed data structure I call the **lookup table (LUT)**.
 
-## 💻 RSONPath with a Touch of DOM
+## 💻 Download
 
-> **Download the current version of the thesis:**  
+> **Download the version of the thesis:**  
 > [📄 View on Google Drive][thesis-link]
 
 **Author:** Ricardo Kraft  

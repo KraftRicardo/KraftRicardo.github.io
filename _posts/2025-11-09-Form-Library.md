@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Form Library"
-subtitle: "In Python/LaTeX"
+title: "Auto Form Generator"
+subtitle: "Python Library with LaTeX elements"
 # cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/Form-Library/form-library-icon.png
-share-img: /assets/img/Form-Library/form-library-icon.png
+thumbnail-img: /assets/img/Form-Library/online-survey.png
+share-img: /assets/img/Form-Library/online-survey.png
 tags: [Job, Python, LaTeX, Project]
 # author: Ricardo Kraft
 ---

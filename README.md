@@ -43,6 +43,7 @@ Key sections of the portfolio:
 - <a href="https://www.flaticon.com/free-icons/meta" title="meta icons">Meta icons created by BZZRINCANTATION - Flaticon</a>
 - <a href="https://www.flaticon.com/free-icons/database" title="database icons">Database icons created by Freepik - Flaticon</a>
 - <a href="https://www.flaticon.com/free-icons/gaming" title="gaming icons">Gaming icons created by Freepik - Flaticon</a>
+- <a href="https://www.flaticon.com/free-icons/survey" title="survey icons">Survey icons created by smashingstocks - Flaticon</a>
 
 ## 🔗 Template Source
 

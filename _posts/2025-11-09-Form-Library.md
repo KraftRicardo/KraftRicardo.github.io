@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Auto Form Generator"
-subtitle: "Python Library with LaTeX elements"
+subtitle: "Python Library for easy & fast form creation"
 thumbnail-img: /assets/img/Form-Library/online-survey.png
 share-img: /assets/img/Form-Library/online-survey.png
 tags: [Job, Python, LaTeX, Project]

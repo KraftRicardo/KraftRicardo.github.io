@@ -6,7 +6,6 @@ cover-img: /assets/img/2D-RPG-Engine/background.png
 thumbnail-img: /assets/img/2D-RPG-Engine/preview.png
 share-img: /assets/img/2D-RPG-Engine/preview.png
 tags: [Project, Java, Game]
-# author: Ricardo Kraft
 ---
 
 This **2D-RPG engine written in Java** is by far my biggest private project so far. I started this project primarily as 

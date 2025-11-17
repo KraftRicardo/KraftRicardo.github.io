@@ -2,11 +2,9 @@
 layout: post
 title: "Auto Form Generator"
 subtitle: "Python Library with LaTeX elements"
-# cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/Form-Library/online-survey.png
 share-img: /assets/img/Form-Library/online-survey.png
 tags: [Job, Python, LaTeX, Project]
-# author: Ricardo Kraft
 ---
 
 During my two years at [MVZ Martinsried](https://www.medicover-diagnostics.de/genetische-beratung/unsere-beratungsstandorte/martinsried) as a working student, I mainly developed Python scripts for process automation and quality-of-life improvements. One project I’d like to highlight is a **Python library** I built for creating dynamic LaTeX-based forms, allowing fully formatted PDF documents to be generated with just a few lines of code.

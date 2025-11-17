@@ -5,7 +5,6 @@ subtitle: Master Thesis | M.Sc. Informatics at TUM
 thumbnail-img: /assets/img/Master-Thesis/database.png
 share-img: /assets/img/Master-Thesis/database.png
 tags: [Master Thesis, Research, Rust]
-# author: Ricardo Kraft
 ---
 
 In my master thesis written in Rust, I conducted research to optimize the already fast query engine [**rsonpath**][rsonpath-link] for JSON files. By introducing elements of **DOM (Document Object Model)** to it, I achieved faster query performance - at the cost of only a small amount of memory and preprocessing time (paid once at startup) for a newly designed data structure I call the **lookup table (LUT)**.

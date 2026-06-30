@@ -11,7 +11,7 @@ In my master thesis written in Rust, I conducted research to optimize the alread
 
 ## 💻 Download
 
-> **Download the version of the thesis:**  
+> **Download the current version of the thesis:**  
 > [📄 View on Google Drive][thesis-link]
 
 **Author:** Ricardo Kraft  
